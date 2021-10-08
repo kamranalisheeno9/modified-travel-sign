@@ -44,7 +44,12 @@ const SignUp = (props) => {
   })
 
   const [users, setUsers] = useState([])
+  const onSubmit=()=>{
+    props.setShow(true)
 
+    alert("Account Registered");
+
+  }
 
   return (
     <Formik
@@ -55,7 +60,6 @@ const SignUp = (props) => {
         nationality:'',
         password:'',
         group1:'',
-        // email: '',
         password: '',
         Confirmpassword: '',
       }}
@@ -153,7 +157,7 @@ const SignUp = (props) => {
     <Form.Check type="checkbox" onClick={()=>setAgreement(!agreement)} label="I agree the terms and conditions" />
   </Form.Group>
                 <div className="btn-submit" >
-                  <Button variant="dark" type="submit" disabled={agreement ? true : false} >
+                  <Button variant="dark" type="submit" onClick={()=>onSubmit()} disabled={agreement ? true : false} >
                     Sign Up
                   </Button>
                 </div>
