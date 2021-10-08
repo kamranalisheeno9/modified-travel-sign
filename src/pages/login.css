@@ -1,0 +1,24 @@
+.login-title {
+    text-align: center !important;
+}
+
+.email {
+    padding-top: 0% !important;
+}
+
+.password {
+    padding-top: 5% !important;
+    padding-bottom: 0% !important;
+}
+.forget-password{
+    cursor: pointer;
+    user-select: none;
+    color: gray !important;
+    
+}
+.forget-password:active{
+    color: rgb(71, 71, 71) !important;
+}
+.btn-submit{
+    text-align: right;
+}

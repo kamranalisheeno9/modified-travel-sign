@@ -1,0 +1,28 @@
+.signup-container{
+    margin-bottom: 5%;
+}
+.signup-title {
+    text-align: center;
+}
+
+.text-muted {
+    display: none;
+}
+
+.btn-submit {
+    text-align: center !important;
+}
+.srilankan{
+    color: black;
+    font-size: 16px;
+}
+.drop-down{
+    margin-bottom: 5%;
+    color: gray;
+}
+.signin-btn{
+    cursor: pointer;
+}
+.form-control,.form-select{
+    padding: .2rem .55rem !important;
+}
